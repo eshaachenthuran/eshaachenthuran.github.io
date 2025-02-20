@@ -1,14 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Preethi uses a clean font */
+    background-color: #1a1a2e; /* Dark Blue Background */
+    color: white; /* Light text for contrast */
     margin: 0;
     padding: 0;
     text-align: center;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
 }
 
 nav ul {
@@ -22,26 +18,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ff6b81; /* Pink Accent */
     text-decoration: none;
+    font-weight: bold;
 }
 
-section {
-    padding: 50px;
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6b81;
 }
 
-.project {
-    background: #f4f4f4;
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-}
-
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+p {
+    font-size: 1.2rem;
+    color: #dcdcdc;
 }
